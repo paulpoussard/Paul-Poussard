@@ -1,69 +1,240 @@
 <!DOCTYPE html>
 <html>
+
+<!-- head -->
 <head>
-<title> Mon profil !</title>
 <meta charset="utf-8">
-<link href="https://fonts.googleapis.com/css?family=Alatsi|Barlow+Semi+Condensed&display=swap" rel="stylesheet">
+<title> Mon Site </title>
 
-<link rel="stylesheet" href="style.css">
+<!-- css -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css"> 
+<link rel="stylesheet" type="text/css" href="main.css">
+<!-- css -->
+
+<!-- font -->
+<link href="https://fonts.googleapis.com/css?family=Montserrat:700&display=swap" rel="stylesheet">
 <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
-</head>
+<!-- Font -->
 
+<!-- meta SEO -->
+<meta name="description" content="Site de location de voiture et de camionette. ">
+<meta name="keywords" content="MOT CLES">
+<!-- meta SEO -->
+
+</head>
+<!-- head -->
+
+<!-- body -->
 <body>
 
+
+<!-- header -->
+<div class="block">
+<header class="header">
+<a href="#" class="header-logo">Mon Site</a>
+<nav class="header-menu">
+<a href="accueil.html">Accueil</a>
+<a href="votrepergola.html">Voiture</a>
+<a href="veranda.html">Camionette</a>
+<a href="contact.html">Contact</a>
+
+</nav>
+
+</header>
+
+</div>
+<!-- header -->
+
+
+
+<!-- banner -->
+
+<div class="block">
+<div class="banner">
+<img src="photo.jpg" alt=" veranda " class="banner-image"
+width="1000000"
+     height="1000000">
+<div class="banner-content">
+<h1 class="title is-1"> Car Rental </h1>
+<h2 class="subtitle"> Découvrez nos offres et vos avantages </h2>
+<button class="button is-link" id="open_modal">Contactez-nous</button>
+</div>
+</div>
+</div>
+<!-- banner -->
+
+
+<!-- modal -->
+<div class="modal own-modal" id="modal_to_open">
+  <div class="modal-background"></div>
+  <div class="modal-card">
+    <header class="modal-card-head">
+      <p class="modal-card-title">Contactez-nous</p>
+      <button class="delete" aria-label="close" id="close_modal"></button>
+    </header>
+    <section class="modal-card-body">
+    <p> Veuillez écrire votre demande </p>
+    </section>
+    <footer class="modal-card-foot">
+      <button class="button is-link">Envoyer</button>
+      <button class="button">Fermer</button>
+    </footer>
+  </div>
+</div>
+<!-- modal -->
+
+<!-- COMPTEUR -->
+<nav class="level">
+ <div class="level-item has-text-centered">
+   <div>
+     <p class="heading">Nombre de personne sur le site</p>
+     <p class="title"> 271 026 </p>
+   </div>
+ </div>
+ <div class="level-item has-text-centered">
+   <div>
+     <p class="heading">Nombres de voitures louées</p>
+     <p class="title"> 323 290 </p>
+   </div>
+ </div>
+ <div class="level-item has-text-centered">
+   <div>
+     <p class="heading">Nombre d'avis positif</p>
+     <p class="title"> 350k </p>
+   </div>
+ </div>
+ <div class="level-item has-text-centered">
+   <div>
+     <p class="heading">Nombres de j'aime sur notre page.</p>
+     <p class="title"> 250k </p>
+   </div>
+ </div>
+</nav>
+<!-- COMPTEUR -->
+
+
+<!-- section : a propos -->
+<div class="block">
+<h2 class="subtitle heading-site"> A propos </h2>
+<div class="container about">
+<div class="columns">
+<div class="column about-single-element">
+<i class="far fa-address-book icon"></i>
+<p>
+Car rental a été créer en 1980. Tout cela a commencer avec un monsieur qui n'avais pas de voiture. Il avait  donc demander a son voisin de lui louer la sienne car il ne l'utilisais pas. Á la fin de la journée il y a eu une idée et a décider de monter une entreprise sur la location de voiture. Car rental vous poropose donc des ventes de voitures ou de camionettes a des prix compétitifs. Nous avons de nombreux partenaires indépendantes. Nous somme également l'une des meilleur entreprise de location de véhicules.
+</p>
+</div>
+<div class="column about-single-element">
+<i class="fas fa-columns icon"></i>
+<p>
+Car rental est donc une grosse société coopérative. Elle a pour but commun : satisfaire les utilisateurs. Aujourd'hui elle asatifaits de nombreux clients et elle s'est dévolleper dans le monde entier.Toutes les réservation sont soignesement prise  de vous garantir le meilleur service possible, afin que vous puissiez avoir votre véhicules le plus rapidement possible. Car rental utilise des véhicules de haute qualité. 
+
+</p>
+</div>
+<div class="column about-single-element">
+<i class="fas fa-shopping-cart icon"></i>
+<p>
+Ainsi, particuliers, professionnels et collectivités trouveront chez ces professionnels de Magnanville mais aussi dans le monde entier les produits les plus adaptés pour chacunes de vos demandes. Tous les produits sont fabriquées aux normes en vigueur, posées dans les règles de l'art par des professionnels qualifiés et sont certifiées par des marques et labels.
+</p>
+</div>
+</div>
+</div>
+</div>
+
+<!-- section : a propos -->
+
+<!-- portfolio -->
+
+<div class="block">
 <div class="container">
-
-<div class="card-white" id="introduction">
-<h1> Yo tout le monde c'est Paul ! 👦</h1>
-<img src="profil.jpeg" class="img-circle" width="100px" alt="Paul Poussard">
-<p id="text">Moi c'est Paul, et bienvenue sur ma page perso. J'ai eu mon bac S l'année dernière 😎 au lycée Saint Augustin à Saint Germain en Laye. Je suis actuellement étudiant à l'EMLV. Pour ce qui est de moi, je suis quelqu’un de plutôt sportif, j'aime beaucoup le sport, plus précisément le foot⚽️. Je cours parfois également. J’aime beaucoup sortir🥳, entretenir ma vie sociale et faire la fête.
-J'ai également travaillé pour Intersport durant l'été pour me faire de l'argent, durant un mois.
- </p>
-<a href="https://www.intersport.fr" class="btn-blue">Intersport </a>
+<h2 class="subtitle heading site">Mon portfolio</h2>
+<div class="tile is-ancestor">
+<div class="tile is-vertical is-8">
+<div class="tile">
+<div class="tile is-parent is-vertical">
+<article class="tile is-child">
+<div class="notification"> Exemple de nos produits.<img src="m3.jpg"></div>
+<!-- ce que je veux  -->
+  </article>
+<article class="tile is-child">
+<img src="gle.jpg" alt="Exemple de voiture">
+</article>
+</div>
+<div class="tile is-parent">
+<article class="tile is-child">
+<div class="notification is-primary">
+<div class="COLORED"> Car rental a été créer en 1980. Tout cela a commencer avec un monsieur qui n'avais pas de voiture. Il avait  donc demander a son voisin de lui louer la sienne car il ne l'utilisais pas. Á la fin de la journée il y a eu une idée et a décider de monter une entreprise sur la location de voiture. Car rental vous poropose donc des ventes de voitures ou de camionettes a des prix compétitifs. Nous avons de nombreux partenaires indépendantes. Nous somme également l'une des meilleur entreprise de location de véhicules.
 </div>
 
+</article>
+</div>
+</div>
+<div class="tile is-parent">
+<article class="tile is-child">
+<img src="bmserie.jpg" alt="Exemple de voiture">
+</article>
+</div>
+</div>
+<div class="tile is-parent">
+<article class="tile is-child">
+<div class="notification is-warning">
+Le contenu de ce  site : il sera dédier  à la locations de voitures mais aussi de  camionettes. Ce sera de la location de voitures pour des personne lambda ou pour des familles car nous nous situons aussi dans les aéroports. Ce qui facilite les récupérations des voitures ou des camionettes, c'est pour que cela aille plus vite et que les clients soient le plus satisfait possible. Nous louons aussi aux particuliers pour que cela puisse leurs revenir moins chère de louer une camionette pendant une journée, par exemple au lieu d'achter une camionette qui va leur servire 1 semaine. Nous louons touts types de voitures, cela peut être des voitures sportives mais encore des voitures citadines ou encore des voitures familliales. Les camionettes sont trés variées, il y a des plus ou moins grands véhicules pour répondre le plus possible à la demande du clients. Notre but et de satisfaire le plus possible le client. 
 
-<div class="card-white">
-<h2> Etudiant </h2>
-<p>  Actuellement à l'EMLV, je suis un cursus commercial, j'ai des matières comme le marketing, la finance, la bourse ou encore le management. 🔮Pour ce qui est de mon avenir : je pense qu’après mes 5 années d'école de commerce je me dirigerai vers une filière plutôt visée sur la finance ou pourquoi pas sinon le E-commerce. 🧐  <i class="fas fa-book"></i> </p> 
+</div>
+</article>
+</div>
+</div>
+</div>
 </div>
 
-
-<div class="card-white">
-<h2> Ce que j'aime faire </h2>
-<p> J'aime beaucoup faire du sport, ecouter de la musique, sortir avec des amies, le trading 🧸 ou encore apprendre des nouvelles choses. 📚</p>
+<!-- porfolio -->
+<div class="block">
+<div class="container">
+<h2 class="subtitle heading site">Mon portfolio</h2>
+<div class="tile is-ancestor">
+<div class="tile is-vertical is-8">
+<div class="tile">
+<div class="tile is-parent is-vertical">
+<article class="tile is-child">
+<div class="notification"> Paul Poussard <img src="paul2.jpg"> 
 </div>
+<!-- ce que je veux  -->
 
 
-<div class="card-white">
-<h2> Mon rêve </h2>
-<p> Mon rêve serai d'avoir un travail stable avec une belle famille 👨‍👩‍👧‍👦, et pourquoi pas même un chien 🐶. Avoir une belle maison 🏠 avec un grand jardin et une belle voiture🚗. J'aimerai également voyager🌍 le plus possible pour découvrir de nouveaux pays, de nouvelles cultures🥗.  <i class="fas fa-plane"></i> </p>
-</div>
 
 
-<div class="card-white">
-<h2> Suivez-Moi </h2>
-<ul class="list-inline">
+<div class="footer">
+<div class="footer-informations">
+<p> 10/14 Avenue du Général Leclerc</p>
+<p> 78230 Le Pecq </p>
+<ul>
 <li>
-<a href="https://www.facebook.com/polo.poussard" target="_blank"> <i class="fab fa-facebook"></i>
-</a> 
+<a href="#">
+<i class="fab fa-facebook-square"></i>
+</a>
 </li>
 <li>
-<a href="https://twitter.com/poussardpaul" target="_blank"> <i class="fab fa-twitter-square"></i>
-</a> 
+<a href="#">
+<i class="fab fa-youtube"></i>
+</a>
 </li>
 <li>
-<a href="https://pikdo.net/u/paul_psrd/1112054262" target="_blank"> <i class="fab fa-instagram"></i>
-</a> 
+<a href="#">
+<i class="fab fa-instagram"></i>
+</a>
 </li>
 </ul>
 </div>
-
+</footer>
 </div>
 
+<!-- contact  -->
 
-
-
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script src="src/js/main.js"></script>
 </body>
+<!-- body -->
+
+
+
 </html>

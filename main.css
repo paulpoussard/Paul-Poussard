@@ -1,0 +1,146 @@
+/*GLOBAL*/
+.heading-site {
+text-align: center;
+font-family:'Montserrat', sans-serif;}
+
+.COLORED {
+height: 400px;
+width: 100%;
+background-color: #3498db;
+padding: 30px;
+text-align: center;}
+
+
+/*HEADER*/
+.header {
+width: 100%;
+margin-left: 0;
+margin-right: 0;
+margin-top: 45px;
+height: 70px;
+line-height: 70%;
+background-color: rgba(0, 0, 0, 0);
+position: fixed;
+top: 0;
+z-index: 999;}
+
+.header .header-logo {
+color: #FFFFFF;
+font-family: 'Montserrat', sans-serif;
+float: left;
+margin-left: 40px;}
+
+.header .header-menu {
+float: right;
+margin-right: 30px;}
+
+.header .header-menu a {
+margin-right: 15px;
+color: #FFFFFF;}
+
+.header .header-menu a:hover {
+color: #3498db;}
+
+
+/*/BANNER*/
+.banner {
+margin-top: -20px;}
+
+.banner .banner-image { 
+position: relative;}
+
+.banner .banner-content {
+position: absolute;
+width: 100%;
+text-align: center;
+top: 30px;}
+
+.banner .banner-content h1 {margin-top: 70px; color: white;}
+.banner .banner-content h2 { color: #FFFFFF;}
+.banner .banner-content h3 {color: white; background-color:#D7A8CD;margin: 140px;}
+
+/*about*/
+.about .about-single-element .icon{
+font-size: 60px;
+text-align: center;}
+
+.about .about-single-element {
+text-align: center;}
+
+
+.about .about-single-element p {
+text-align: left;
+margin-top: 20px;}
+
+/*FOOTER*/
+
+.footer .footer-informations {
+text-align: center;
+margin-top: 30px;}
+
+.footer .footer-informations ul {
+padding: 0;}
+
+.footer .footer-informations ul li {
+display: inline-block;
+list-style-type: none;}
+
+/*MODAL*/
+.own-modal {
+padding-top: 120px;}
+
+.field {
+margin-left:100px;
+margin-right: 50px;
+margin-top: 60px;
+margin-bottom: 40px;
+}
+
+
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+padding: 20px;
+}
+.card img {
+  width: 150px;
+}
+.card h3 {
+  flex-grow: 4;
+  padding-left: 20px;
+}
+
+.cards {
+  display: flex;
+flex-wrap: wrap;
+}
+.card{
+  flex-basis: 250px;
+flex-grow: 1;
+margin: 10px;
+}
+
+.cards #text h1 {
+margin-top: 100px;
+margin-left: 100px;
+font-family:'Montserrat', sans-serif;
+color: #E70739;
+}
+
+.cards #text h2 {
+margin-left: 60px;
+font-family:'Montserrat', sans-serif;
+color:#ABC8E2;
+}
+
+.cards #text p {
+margin-left: 20px;
+font-family:'Montserrat', sans-serif;
+color:#B09F91;
+}
+
+.level {
+padding:100px;
+background-color: #FDD9E0;
+}

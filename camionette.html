@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html>
+
+<!-- HEAD -->
+<head>
+<meta charset="utf-8">
+<title> Camionettes </title>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
+<link rel="stylesheet" type="text/css" href="main.css">
+
+<!-- FONT-->
+<link href="https://fonts.googleapis.com/css?family=Montserrat:700&display=swap" rel="stylesheet">
+<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+<!-- FONT -->
+<!-- HEAD -->
+</head>
+
+<!-- header -->
+<div class="block">
+<header class="header">
+<a href="#" class="header-logo">Mon Site</a>
+<nav class="header-menu">
+<a href="accueil.html">Accueil</a>
+<a href="voiture.html">Voiture</a>
+<a href="camionette.html">Camionette</a>
+<a href="contact.html">Contact</a>
+
+</header>
+
+</div>
+<!-- HEADER -->
+
+<div class="block">
+<div class="banner">
+<img src="van.jpg" alt="camionette" class="banner-image">
+<div class="banner-content">
+<h1 class="title is-1"> Camionettes </h1>
+<h2 class="subtitle"> Découvrez toutes nos différentes camionettes </h2>
+<button class="button is-link
+" id="open_modal">Demandez votre devis</button>
+</div>
+</div>
+</div>
+<!-- BANNER -->
+
+<!-- MODAL -->
+<div class="modal own-modal" id="modal_to_open">
+  <div class="modal-background"></div>
+  <div class="modal-card">
+    <header class="modal-card-head">
+      <p class="modal-card-title"> Demandez votre devis</p>
+      <button class="delete" aria-label="close" id="close_modal"></button>
+    </header>
+    <section class="modal-card-body">
+    <p> Veuillez écrire votre demande </p>
+    </section>
+    <footer class="modal-card-foot">
+      <button class="button is-link">Envoyer</button>
+      <button class="button">Fermer</button>
+    </footer>
+  </div>
+</div>
+<!-- MODAL -->
+
+
+<!-- COMPTEUR -->
+<nav class="level">
+ <div class="level-item has-text-centered">
+   <div>
+     <p class="heading">Nombre de personne sur le site</p>
+     <p class="title"> 271 026 </p>
+   </div>
+ </div>
+ <div class="level-item has-text-centered">
+   <div>
+     <p class="heading">Nombres de voitures louées</p>
+     <p class="title"> 323 290 </p>
+   </div>
+ </div>
+ <div class="level-item has-text-centered">
+   <div>
+     <p class="heading">Nombre d'avis positif</p>
+     <p class="title"> 350k </p>
+   </div>
+ </div>
+ <div class="level-item has-text-centered">
+   <div>
+     <p class="heading">Nombres de j'aime sur notre page</p>
+     <p class="title"> 250k </p>
+   </div>
+ </div>
+</nav>
+<!-- COMPTEUR -->
+
+
+<!-- DEBUT DES CAMIONETTE -->
+<div class="tile is-ancestor">
+    <div class="tile is-4 is-vertical is-parent">
+      <div class="tile is-child box">
+        <p class="title"> Mercedes Viano </p>
+        <p> Spécialiste du transport luxueux de personnes, le Mercedes Viano fait aussi rêver les familles nombreuses. Lors d'un voyage vers le salon de Francfort, nous avons testé toutes ses possibilités dans sa version restylée dotée du nouveau moteur. Il a une capacité  de coffre de 850L.</p>
+      </div>
+      <div class="tile is-child box">
+        <p class="title">Image</p>
+        <img src="viano.jpg">
+        </div>
+  </div>
+  <div class="tile is-parent">
+      <div class="tile is-child box">
+        <p class="title"> Description </p>
+        <p>Moteur
+Nombre de cylindres : 4 Nombre de soupapes par cylindre : 4 Cylindrée : 2143 cc
+Puissance din : 136 ch au régime de 3800 tr/min
+Couple moteur : 310 Nm au régime de 1400 tr/min
+Consommation
+Réservoir : 75 L Consommation urbaine : 8.8 L / 100 km Consommation mixte : 7.2 L / 100 km</p>
+        <p>Performances
+Vitesse maximum : 174 km/h Accéleration 0/100km/h : 14.1 sec
+Transmission : Arrière Boite : Mécanique Nb. vitesses : 6</p>
+<br>Seulement à partir de 100€/jour</br>
+      </div>
+  </div>
+</div>
+
+
+
+
+
+
+<div class="tile is-ancestor">
+    <div class="tile is-4 is-vertical is-parent">
+      <div class="tile is-child box">
+        <p class="title"> Volkswagen Transpoter </p>
+        <p> Depuis plus de 70 ans, artisans, livreurs et autres prestataires utilisent les différentes générations successives du modèle "Transporter". Solution pratique pour éviter les embouteillages, il est devenu la référence et l'emblème de toute une catégorie de véhicules. Car un point a toujours été et reste toujours important: être à votre service et vous accompagner dans votre travail. Il a une capacité de 850L de coffre.</p>
+      </div>
+      <div class="tile is-child box">
+        <p class="title"> Image </p>
+       <img src="transpoter.jpg">
+      </div>
+  </div>
+  <div class="tile is-parent">
+      <div class="tile is-child box">
+        <p class="title"> Description </p>
+        <p>Moteur
+Nombre de cylindres : 3 Nombre de soupapes par cylindre : 4 Cylindrée : 999 cc
+Puissance din : 102 ch au régime de 5000 tr/min
+Couple moteur : 175 Nm au régime de 1500 tr/min.
+Consommation
+Réservoir : 55 L Consommation urbaine : 7.2 L / 100 km Consommation mixte : 6 L / 100 km</p>
+        <p>Performances
+Vitesse maximum : 191 km/h Accéleration 0/100km/h : NC
+Transmission : Avant Boite : Mécanique Nb. vitesses : 5</p>
+<br>Seulement à partir de 120€/jour</br>
+      </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+<div class="tile is-ancestor">
+    <div class="tile is-4 is-vertical is-parent">
+      <div class="tile is-child box">
+        <p class="title"> Volkswagen California</p>
+        <p>Dormir sous un ciel étoilé. Être réveillé par le bruit des vagues le matin. Découvrir des pays étrangers, en étant comme à la maison : le California 6.1 est synonyme de liberté à l’état pur. Avec son équipement intérieur confortable, et ses détails judicieusement pensés, il transforme chaque voyage en une aventure inoubliable. Profitez de votre indépendance, et voyagez où vous voulez, en emmenant tout ce dont vous avez besoin. Il a une capacité de 22000L de coffre.</p>
+      </div>
+      <div class="tile is-child box">
+        <p class="title"> Image </p>
+        <img src="california.jpg">
+      </div>
+  </div>
+  <div class="tile is-parent">
+    <div class="tile is-child box">
+      <p class="title"> Description </p>
+        <p>Moteur
+Nombre de cylindres : 6 Nombre de soupapes par cylindre : 4 Cylindrée : 2967 cc
+Puissance din : 258 ch au régime de 3200 tr/min
+Couple moteur : 580 Nm au régime de 1400 tr/min.
+Consommation
+Réservoir : 80 L Consommation urbaine : 9.2 L / 100 km Consommation mixte : 8.4 L / 100 km.
+Performances
+Vitesse maximum : 205 km/h Accéleration 0/100km/h : NC
+Transmission : 4 roues motrices Boite : Automatique Nb. vitesses : 8</p>
+<br>Seulement à partir de 90€/jour</br>
+      </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+<div class="tile is-ancestor">
+  <div class="tile is-4 is-vertical is-parent">
+      <div class="tile is-child box">
+        <p class="title"> Renault Trafic </p>
+        <p>Avec sa planche de bord ergonomique, ses éclairages LED, sa sellerie robuste et confortable et ses détails chromés… Du cockpit à l’espace de chargement, Nouveau TRAFIC reprend les codes d’un véhicule particulier pour vous accueillir dans un intérieur encore plus harmonieux.Il a une capacité de coffre de 22000l. </p>
+      </div>
+      <div class="tile is-child box">
+        <p class="title"> Image </p>
+        <img src="trafic.jpg">
+      </div>
+    </div>
+    <div class="tile is-parent">
+      <div class="tile is-child box">
+        <p class="title"> Description </p>
+        <p>Moteur
+Nombre de cylindres : 4 Nombre de soupapes par cylindre : 4 Cylindrée : 2298 cc
+Puissance din : 160 ch au régime de 3750 tr/min
+Couple moteur : 403 Nm au régime de 1500 tr/min.
+Consommation
+Réservoir : 73 L Consommation urbaine : 6.8 L / 100 km Consommation mixte : 6.3 L / 100 km.
+Performances
+Vitesse maximum : 172 km/h Accéleration 0/100km/h : NC.
+Transmission : 4 roues motrices Boite : Mécanique Nb. vitesses : 6</p>
+<br>Seulement à partir de 60€/jour</br>
+      </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+<div class="tile is-ancestor">
+  <div class="tile is-4 is-vertical is-parent">
+      <div class="tile is-child box">
+        <p class="title"> Citroën Berlingo </p>
+        <p>Précurseur en matière de ludospaces depuis 1996, Citroën présente son Berlingo qui conserve tous les atouts de ses prédécesseurs et gagne en modernité. Citroën Berlingo apporte une réponse innovante et audacieuse en termes de design, de modularité et de praticité. Il a un coffre d'une capacité de 850L</p>
+      </div>
+      <div class="tile is-child box">
+        <p class="title"> Image </p>
+        <img src="berlingo.jpg">
+      </div>
+    </div>
+    <div class="tile is-parent">
+      <div class="tile is-child box">
+        <p class="title"> Description </p>
+        <p>Moteur
+Nombre de cylindres : 3 Nombre de soupapes par cylindre : 4 Cylindrée : 1199 cc
+Puissance din : 110 ch au régime de 5500 tr/min
+Couple moteur : 205 Nm au régime de 1750 tr/min.
+Consommation
+Réservoir : 60 L Consommation urbaine : 6.3 L / 100 km Consommation mixte : 5.4 L / 100 km.
+Vitesse maximum : 175 km/h Accéleration 0/100km/h : 11.5 sec.
+Transmission : Avant Boite : Mécanique Nb. vitesses : 6</p>
+<br>Seulement à partir de 50€/jour</br>
+      </div>
+  </div>
+</div>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script src="src/js/main.js"></script>
+<body>
+
+</body>
+</html>
